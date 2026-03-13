@@ -4,7 +4,10 @@
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
 }
-
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1 fr));
+}
 .hero {
     width: 100%;
     min-height: 100vh;
